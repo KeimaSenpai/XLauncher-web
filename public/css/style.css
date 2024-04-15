@@ -1,0 +1,51 @@
+/* Fuentes locales */
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('/public/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Estilo global */
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+/* Estilo de la barra de navegación */
+nav{
+    font-family: Poppins-Regular;
+    height: 50px;
+    background: #272727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+li a:hover {
+    color: #636363;
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 7px;
+    background: #1f1f23
+}
+
+.btn:hover{
+    background: #111113
+}
+
+body{
+    background: #0E0E10;
+}
